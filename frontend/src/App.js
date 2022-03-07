@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 
-import LogoIcon from "./images/logo-icon.svg";
 import CheckIcon from "./images/group_4949.svg";
 
 import './App.css';
@@ -62,7 +61,7 @@ function App() {
           <div className="widget-body-2">
             <div className="w-form">
               <form id="email-form" name="email-form" data-name="Email Form" className="form">
-                <div className="task-title-group"><img src={LogoIcon} loading="lazy" alt="" className="task-logo"/>
+                <div className="task-title-group">
                   <div className="task-overline">Powered by <a href="https://render.com">Render</a></div>
                   <h1 className="task-title">Todo List</h1>
                 </div>
